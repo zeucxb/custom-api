@@ -1,0 +1,11 @@
+path: /create_posts
+method: get
+request:
+  method: post 
+  path: /posts
+  host: https://jsonplaceholder.typicode.com
+  params:
+    title: $titulo
+    body: $conteudo
+    userId: $id_do_usuario
+parser: caina-parse

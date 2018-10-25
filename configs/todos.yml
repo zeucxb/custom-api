@@ -1,0 +1,6 @@
+path: /all_posts
+method: get
+request:
+  method: get
+  path: /posts
+  host: https://jsonplaceholder.typicode.com
