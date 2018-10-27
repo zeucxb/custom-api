@@ -8,4 +8,4 @@ request:
     title: $titulo
     body: $conteudo
     userId: $id_do_usuario
-parser: caina-parse
+post-parser: caina-parse
